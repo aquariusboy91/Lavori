@@ -1,0 +1,98 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+
+
+.contenitore{
+  margin: auto;
+  width: 1000px;
+  height:600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  margin-top: 3%;
+}
+
+.logo{
+  width: 20%;
+  margin: auto;
+  display: block;
+}
+
+.titolo{
+  text-align: center;
+  color: #00FF00;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.navigatore{
+  background-color: #00FF00;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  padding-top: 1%;
+
+}
+
+
+
+.titolomonopattino{
+  color: white;
+  display: inline-block;
+  margin-bottom: 2px;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.sezionegenerale{
+  margin-top:2%;
+
+}
+
+.via{
+  color: white;
+}
+
+.via:before{
+  content:"\27FC";
+  color:white;
+
+}
+
+.modelli{
+  padding-left: 15%;
+
+}
+
+.statocarica{
+  color: white;
+}
+
+.barracarica{
+  background-color: lightgreen;
+  width: 300px;
+  height: 22px;
+  border-radius: 5%;
+}
+
+.barracarica2{
+  background-color: grey;
+  width: 500px;
+  height: 22px;
+  border-radius: 5%;
+}
+
+.barracarica3{
+  background-color: lightblue;
+  width: 400px;
+  height: 22px;
+  border-radius: 5%;
+}
+
+.firma{
+  color: white;
+  font-family: 'Kiwi Maru', serif;
+  margin-left: 2%;
+
+}
